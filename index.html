@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>职业健康体检混合智能诊断</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="app-shell">
+    <section class="workspace">
+      <header class="app-header">
+        <div class="title-group">
+          <span class="dot"></span>
+          <h1>职业健康体检混合智能诊断与主检建议生成模型系统</h1>
+        </div>
+      </header>
+
+      <section class="content-grid">
+        <aside class="left-column">
+          <section class="panel">
+            <div class="panel-head">
+              <span class="panel-title">输入区</span>
+            </div>
+
+            <div class="field-block">
+              <label class="field-label">体检数据文件</label>
+              <div class="file-card">
+                <div class="file-main">
+                  <div class="file-icon">TXT</div>
+                  <div>
+                    <div class="file-name">occupational_health_record.json</div>
+                    <div class="file-meta">已载入 15.7 MB 结构化职业健康档案文件</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="field-block compact">
+              <label class="field-label">文件内容摘要</label>
+              <div class="summary-grid">
+                <div><span>性别：</span>男</div>
+                <div><span>出生时间：</span>32</div>
+                <div><span>工种：</span>喷锚（喷口工）</div>
+                <div><span>接尘史：</span>9 年 7 个月</div>
+                <div><span>接毒史：</span>无</div>
+                <div><span>职业禁忌：</span>无</div>
+                <div><span>耳道：</span>正常</div>
+                <div><span>胸片：</span>正常</div>
+                <div><span>肺功能：</span>轻度阻塞性通气功能障碍</div>
+                <div><span>血压：</span>128 / 85 mmHg</div>
+                <div><span>心电图：</span>窦性心律齐，偶发室性期前收缩</div>
+                <div><span>双耳高频平均听阈：</span>17.7 dB</div>
+                <div><span>提醒：</span>建议结合个体症状、既往史及职业暴露情况综合判断</div>
+              </div>
+            </div>
+          </section>
+
+          <section class="panel output-panel">
+            <div class="panel-head">
+              <span class="panel-title">操作与输出</span>
+            </div>
+
+            <div class="action-row">
+              <button class="primary-btn" id="run-analysis" type="button">开始分析</button>
+              <button class="ghost-btn" type="button">上传文件后执行诊断与建议生成</button>
+            </div>
+
+            <div class="output-stage">
+              <div class="stage-tabs">
+                <button class="stage-tab active" data-target="advice-panel" type="button">主检建议生成</button>
+                <button class="stage-tab" data-target="process-panel" type="button">分析过程</button>
+              </div>
+              <div class="stage-box">
+                <div class="stage-pane active" id="advice-panel">
+                  <p>等待分析结果...</p>
+                </div>
+                <div class="stage-pane" id="process-panel">
+                  <p>模型尚未执行。点击“开始分析”后会在这里展示判定过程。</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </aside>
+
+        <section class="right-column panel">
+          <div class="panel-head">
+            <span class="panel-title">结果区 / 建议区</span>
+          </div>
+
+          <div class="result-top">
+            <section class="result-card green-card">
+              <div class="result-card-head">
+                <h2>结论区</h2>
+              </div>
+              <div class="alert-strip">
+                <span>检出结论：未发现接尘作业职业病危险因素职业禁忌证</span>
+                <span>风险状态：总体正常，可继续随访</span>
+              </div>
+              <div class="two-col-boxes">
+                <article class="mini-box">
+                  <h3>关键异常与判定依据</h3>
+                  <ul>
+                    <li>接触粉尘史：持续暴露 9 年 7 个月。</li>
+                    <li>肺功能：轻度阻塞性通气功能障碍。</li>
+                    <li>双耳高频平均听阈：17.7 dB，符合正常范围。</li>
+                    <li>心电图偶发室性期前收缩，无明显临床症状提示。</li>
+                    <li>心血压控制良好，未见急性异常。</li>
+                  </ul>
+                </article>
+                <article class="mini-box">
+                  <h3>结果说明摘要</h3>
+                  <ul>
+                    <li>该类暴露主要表现为呼吸道刺激和职业性肺功能改变风险增加。</li>
+                    <li>心电图所见为一次性检测结果，建议结合体检术中表现与临床症状判读。</li>
+                    <li>若长期从事噪声相关岗位，仍需进行听力动态随访。</li>
+                  </ul>
+                </article>
+              </div>
+            </section>
+
+            <section class="result-card warm-card">
+              <div class="result-card-head">
+                <h2>建议区</h2>
+              </div>
+              <div class="suggestions" id="suggestions-panel">
+                <p>1. 如需调岗应注意：</p>
+                <p>未发现职业病危害作业禁忌证结论，未发现噪声作业职业禁忌证。</p>
+                <p>2. 需中心进一步随访项目包括：</p>
+                <p>建议心律不齐者复查相关检查项目，必要时予复检，并进一步评估是否继续接触对节律有影响的作业；同时建议结合年龄、可疑接触史、运动量、病史资料及职业暴露特点综合研判。</p>
+                <p>3. 职业防护建议：</p>
+                <p>坚持佩戴防尘和听力防护具，通常体检频次不宜过大。</p>
+              </div>
+            </section>
+          </div>
+        </section>
+      </section>
+    </section>
+  </main>
+  <script src="./script.js"></script>
+</body>
+</html>

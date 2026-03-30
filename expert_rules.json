@@ -1,0 +1,210 @@
+[
+  {
+    "id": "contraindication_uncontrolled_diabetes",
+    "priority": 100,
+    "output_label": "职业禁忌证",
+    "diagnosis": "未控制的糖尿病",
+    "decision_tree": {
+      "all": [
+        {
+          "field": "血葡萄糖结果1185",
+          "operator": ">=",
+          "value": 7.0
+        }
+      ]
+    }
+  },
+  {
+    "id": "contraindication_uncontrolled_hypertension",
+    "priority": 96,
+    "output_label": "职业禁忌证",
+    "diagnosis": "未控制的高血压",
+    "decision_tree": {
+      "any": [
+        {
+          "all": [
+            {
+              "field": "收缩压结果242",
+              "operator": ">=",
+              "value": 160
+            }
+          ]
+        },
+        {
+          "all": [
+            {
+              "field": "舒张压结果245",
+              "operator": ">=",
+              "value": 100
+            }
+          ]
+        },
+        {
+          "all": [
+            {
+              "field": "收缩压合格标记244",
+              "operator": "==",
+              "value": "不合格"
+            },
+            {
+              "field": "收缩压结果242",
+              "operator": ">=",
+              "value": 145
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "contraindication_hearing_loss",
+    "priority": 94,
+    "output_label": "职业禁忌证",
+    "diagnosis": "任一耳传导性耳聋，平均语频听力损失≥41dB",
+    "decision_tree": {
+      "all": [
+        {
+          "field": "双耳语频平均听阈结果732",
+          "operator": ">=",
+          "value": 41
+        },
+        {
+          "field": "双耳语频平均听阈合格标记734",
+          "operator": "==",
+          "value": "不合格"
+        }
+      ]
+    }
+  },
+  {
+    "id": "contraindication_sensorineural_hearing",
+    "priority": 92,
+    "output_label": "职业禁忌证",
+    "diagnosis": "除噪声外各种原因引起的永久性感音神经性听力损失",
+    "decision_tree": {
+      "all": [
+        {
+          "field": "双耳高频平均听阈结果735",
+          "operator": ">=",
+          "value": 25
+        },
+        {
+          "field": "双耳语频平均听阈合格标记734",
+          "operator": "==",
+          "value": "不合格"
+        }
+      ]
+    }
+  },
+  {
+    "id": "contraindication_lung_function_damage",
+    "priority": 90,
+    "output_label": "职业禁忌证",
+    "diagnosis": "伴肺功能损害的疾病",
+    "decision_tree": {
+      "all": [
+        {
+          "field": "接触危害因素25",
+          "operator": "contains_any",
+          "value": [
+            "矽尘",
+            "煤尘",
+            "粉尘",
+            "陶土粉尘",
+            "电焊烟尘",
+            "铁及其化合物粉尘"
+          ]
+        },
+        {
+          "field": "肺功能结果结果590",
+          "operator": "contains_any",
+          "value": [
+            "中度",
+            "重度",
+            "阻塞",
+            "拘束",
+            "损害"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "suspected_noise_deafness",
+    "priority": 88,
+    "output_label": "疑似职业病",
+    "diagnosis": "职业性噪声聋",
+    "decision_tree": {
+      "all": [
+        {
+          "field": "接触危害因素25",
+          "operator": "contains_any",
+          "value": [
+            "噪声"
+          ]
+        },
+        {
+          "field": "双耳高频平均听阈结果735",
+          "operator": ">=",
+          "value": 40
+        },
+        {
+          "field": "双耳高频平均听阈合格标记737",
+          "operator": "==",
+          "value": "不合格"
+        }
+      ]
+    }
+  },
+  {
+    "id": "suspected_pneumoconiosis",
+    "priority": 86,
+    "output_label": "疑似职业病",
+    "diagnosis": "尘肺样改变待复核",
+    "decision_tree": {
+      "all": [
+        {
+          "field": "接触危害因素25",
+          "operator": "contains_any",
+          "value": [
+            "矽尘",
+            "煤尘",
+            "粉尘",
+            "陶土粉尘",
+            "电焊烟尘",
+            "大理石粉尘",
+            "谷物粉尘"
+          ]
+        },
+        {
+          "any": [
+            {
+              "field": "胸部正位片结果判定596",
+              "operator": "==",
+              "value": "尘肺样改变"
+            },
+            {
+              "all": [
+                {
+                  "field": "胸部正位片合格标记595",
+                  "operator": "==",
+                  "value": "不合格"
+                },
+                {
+                  "field": "胸部正位片结果593",
+                  "operator": "contains_any",
+                  "value": [
+                    "肺纹理增多",
+                    "肺纹理增粗",
+                    "结节",
+                    "斑片影"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

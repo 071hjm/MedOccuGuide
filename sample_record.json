@@ -1,0 +1,15 @@
+{
+  "gender": "男",
+  "age": 32,
+  "job_type": "喷锚（喷口工）",
+  "dust_exposure_years": 9.6,
+  "toxic_exposure_years": 0,
+  "occupational_taboo": "无",
+  "ear_canal": "正常",
+  "chest_xray": "正常",
+  "lung_function": "轻度阻塞性通气功能障碍",
+  "blood_pressure": "128 / 85 mmHg",
+  "ecg": "窦性心律齐，偶发室性期前收缩",
+  "hearing_threshold": 17.7,
+  "symptoms": "无明显不适"
+}

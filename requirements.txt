@@ -1,0 +1,14 @@
+faiss-cpu>=1.13
+gradio>=4.44,<6
+imbalanced-learn>=0.13,<0.15
+jieba>=0.42
+joblib>=1.5
+lightgbm>=4.6
+rank-bm25>=0.2
+scikit-learn==1.6.1
+shap>=0.51
+accelerate>=1.10
+peft>=0.17
+safetensors>=0.6
+torch>=2.8
+transformers>=4.56
