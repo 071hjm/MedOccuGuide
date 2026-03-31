@@ -1,0 +1,20 @@
+[
+  {
+    "chunk_id": "GBZ45_2010_chunk_001",
+    "file_name": "43.GBZ 45-2010职业性三硝基甲苯白内障诊断标准.pdf",
+    "source": "职业性三硝基甲苯白内障诊断标准",
+    "source_type": "national_occupational_diagnostic_standard",
+    "year": 2010,
+    "type": "standard_rule",
+    "chunk_level": "scope",
+    "parent_section": "1 范围",
+    "title": "范围与诊断原则",
+    "disease_name": "职业性三硝基甲苯白内障",
+    "hazard": "三硝基甲苯",
+    "system_target": "眼",
+    "text": "本标准规定了职业性三硝基甲苯白内障的诊断与处理原则，适用于职业性三硝基甲苯白内障的诊断和处理。应根据密切的三硝基甲苯职业接触史、双眼晶状体混浊改变为主的临床表现，结合动态观察并排除其他病因所致类似晶体改变后方可诊断。",
+    "retrieval_hint": "当输入涉及三硝基甲苯暴露、晶状体周边混浊、眼科检查时优先召回。",
+    "priority": "high",
+    "status": "converted_to_user_template"
+  }
+]

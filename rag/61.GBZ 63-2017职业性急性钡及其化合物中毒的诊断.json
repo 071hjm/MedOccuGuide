@@ -1,0 +1,20 @@
+[
+  {
+    "chunk_id": "GBZ63_2017_chunk_001",
+    "file_name": "61.GBZ 63-2017职业性急性钡及其化合物中毒的诊断.pdf",
+    "source": "职业性急性钡及其化合物中毒的诊断",
+    "source_type": "national_occupational_diagnostic_standard",
+    "year": 2017,
+    "type": "standard_rule",
+    "chunk_level": "scope",
+    "parent_section": "1 范围；3 诊断原则；5 诊断分级",
+    "title": "范围、诊断原则与分级",
+    "disease_name": "职业性急性钡及其化合物中毒",
+    "hazard": "可溶性钡化合物",
+    "system_target": "心脏;神经肌肉系统;电解质代谢",
+    "text": "本标准规定了职业性急性钡化合物中毒的诊断及处理原则，适用于职业活动中接触钡化合物所致急性中毒的诊断及处理。诊断应根据短期内吸入或经受损皮肤吸收大量可溶性钡化合物的职业接触史，结合以胃肠道刺激症状、低钾血症、肌肉麻痹和心律失常为主的临床表现以及心电图、血清钾检查结果综合分析。分级包括轻度、中度和重度中毒。",
+    "retrieval_hint": "当输入涉及钡盐暴露、低钾血症、肌无力、室速、室颤、呼吸肌麻痹时优先召回。",
+    "priority": "high",
+    "status": "converted_to_user_template"
+  }
+]

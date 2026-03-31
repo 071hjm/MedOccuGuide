@@ -1,0 +1,20 @@
+[
+  {
+    "chunk_id": "GBZ61_2015_chunk_001",
+    "file_name": "59.GBZ 61-2015职业性牙酸蚀病的诊断.pdf",
+    "source": "职业性牙酸蚀病的诊断",
+    "source_type": "national_occupational_diagnostic_standard",
+    "year": 2015,
+    "type": "standard_rule",
+    "chunk_level": "scope",
+    "parent_section": "1 范围；3 诊断原则；4 诊断分级",
+    "title": "范围、诊断原则与分级",
+    "disease_name": "职业性牙酸蚀病",
+    "hazard": "酸雾;酸蒸气;酸性粉尘",
+    "system_target": "牙齿",
+    "text": "本标准规定了职业性牙酸蚀病的诊断及分级标准，适用于职业活动中长期接触酸雾、酸蒸气或酸性粉尘所致牙酸蚀病的诊断及分级。诊断应根据明确职业接触史、特征性牙体硬组织损害以及排除其他原因所致牙体缺损综合判断。分为Ⅰ度至Ⅳ度酸蚀病。",
+    "retrieval_hint": "当输入涉及酸雾作业、牙切缘变薄、牙体缺损、牙本质暴露、职业性酸蚀时优先召回。",
+    "priority": "high",
+    "status": "converted_to_user_template"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "chunk_id": "GBZ54_2017_chunk_001",
+    "file_name": "52.GBZ 54-2017职业性化学性眼灼伤的诊断.pdf",
+    "source": "职业性化学性眼灼伤的诊断",
+    "source_type": "national_occupational_diagnostic_standard",
+    "year": 2017,
+    "type": "standard_rule",
+    "chunk_level": "scope",
+    "parent_section": "1 范围；3 诊断原则；4 诊断与分级标准",
+    "title": "范围、诊断原则与分级",
+    "disease_name": "职业性化学性眼灼伤",
+    "hazard": "致眼灼伤化学物质",
+    "system_target": "眼",
+    "text": "本标准规定了职业性化学性眼灼伤的诊断及处理原则，适用于职业性化学性眼灼伤的诊断及处理。诊断应根据明确的眼部直接接触化学物质的职业史，和眼睑、结膜、角膜等组织损害的临床表现，参考作业环境调查综合分析。分级包括壹级至陆级眼灼伤，以角膜缘损伤累及范围和眼组织损害程度为主要依据。",
+    "retrieval_hint": "当输入涉及酸碱入眼、角膜上皮缺损、角膜缘缺血、眼睑结膜角膜损伤时优先召回。",
+    "priority": "high",
+    "status": "converted_to_user_template"
+  }
+]

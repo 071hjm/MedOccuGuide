@@ -1,0 +1,20 @@
+[
+  {
+    "chunk_id": "GBZ55_2002_chunk_001",
+    "file_name": "53.GBZ 55－2002职业性痤疮诊断标准.pdf",
+    "source": "职业性痤疮诊断标准",
+    "source_type": "national_occupational_diagnostic_standard",
+    "year": 2002,
+    "type": "standard_rule",
+    "chunk_level": "scope",
+    "parent_section": "1 范围；3 诊断原则；4 诊断标准",
+    "title": "范围、诊断原则与分类",
+    "disease_name": "职业性痤疮",
+    "hazard": "矿物油类;卤代烃类",
+    "system_target": "皮肤",
+    "text": "职业性痤疮是指在生产劳动中接触矿物油类或某些卤代烃类引起的皮肤毛囊、皮脂腺系统的慢性炎症损害。本标准规定了职业性痤疮的诊断标准及处理原则，适用于职业性痤疮的诊断及处理。根据主要致病物和临床表现可分为油痤疮和氯痤疮。",
+    "retrieval_hint": "当输入涉及焦油、润滑油、多氯苯、多氯萘、黑头粉刺、草黄色囊肿时优先召回。",
+    "priority": "high",
+    "status": "converted_to_user_template"
+  }
+]

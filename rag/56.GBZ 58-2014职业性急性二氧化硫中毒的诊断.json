@@ -1,0 +1,20 @@
+[
+  {
+    "chunk_id": "GBZ58_2014_chunk_001",
+    "file_name": "56.GBZ 58-2014职业性急性二氧化硫中毒的诊断.pdf",
+    "source": "职业性急性二氧化硫中毒的诊断",
+    "source_type": "national_occupational_diagnostic_standard",
+    "year": 2014,
+    "type": "standard_rule",
+    "chunk_level": "scope",
+    "parent_section": "1 范围；3 诊断原则；5 诊断分级",
+    "title": "范围、诊断原则与分级",
+    "disease_name": "职业性急性二氧化硫中毒",
+    "hazard": "二氧化硫",
+    "system_target": "呼吸系统;眼和上呼吸道",
+    "text": "本标准规定了职业性急性二氧化硫中毒的诊断及处理原则，适用于职业性接触二氧化硫所引起的急性中毒的诊断及处理。诊断应根据短时间内接触较高浓度二氧化硫气体的职业史、以急性呼吸系统损害为主的临床表现和胸部影像学改变，结合实验室检查结果综合分析。分级包括轻度中毒、中度中毒和重度中毒。",
+    "retrieval_hint": "当输入涉及二氧化硫、高浓度刺激、咽痛咳嗽、喉阻塞、肺水肿、ARDS时优先召回。",
+    "priority": "high",
+    "status": "converted_to_user_template"
+  }
+]

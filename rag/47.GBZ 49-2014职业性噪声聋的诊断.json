@@ -1,0 +1,20 @@
+[
+  {
+    "chunk_id": "GBZ49_2014_chunk_001",
+    "file_name": "47.GBZ 49-2014职业性噪声聋的诊断.pdf",
+    "source": "职业性噪声聋的诊断",
+    "source_type": "national_occupational_diagnostic_standard",
+    "year": 2014,
+    "type": "standard_rule",
+    "chunk_level": "scope",
+    "parent_section": "1 范围；3 诊断原则；4 诊断分级",
+    "title": "范围、诊断原则与分级",
+    "disease_name": "职业性噪声聋",
+    "hazard": "职业性噪声",
+    "system_target": "耳",
+    "text": "本标准规定了职业性噪声聋的诊断原则、诊断分级及处理原则，适用于长期职业接触噪声所致听力下降的诊断及处理。诊断应依据连续3年以上职业性噪声作业史、渐进性听力下降和耳鸣等症状、纯音测听为感音神经性聋，并结合职业健康监护资料和现场职业卫生学调查，排除其他原因所致听觉损害后方可诊断。符合双耳高频（3000 Hz、4000 Hz、6000 Hz）平均听阈≥40 dB者，可按较好耳语频（500 Hz、1000 Hz、2000 Hz）和高频听阈4000 Hz加权值进行分级。",
+    "retrieval_hint": "当输入涉及长期噪声暴露、耳鸣、感音神经性聋、纯音测听时优先召回。",
+    "priority": "high",
+    "status": "converted_to_user_template"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "chunk_id": "GBZ59_2010_chunk_001",
+    "file_name": "57.GBZ 59-2010职业性中毒性肝病诊断标准.pdf",
+    "source": "职业性中毒性肝病诊断标准",
+    "source_type": "national_occupational_diagnostic_standard",
+    "year": 2010,
+    "type": "standard_rule",
+    "chunk_level": "scope",
+    "parent_section": "1 范围；3 诊断原则；4 诊断及分级",
+    "title": "范围、诊断原则与分级",
+    "disease_name": "职业性中毒性肝病",
+    "hazard": "肝脏毒物",
+    "system_target": "肝脏",
+    "text": "本标准规定了职业性中毒性肝病诊断及处理原则，适用于化学毒物所引起的职业性急性、慢性中毒性肝病的诊断。诊断应根据明确的肝脏毒物职业接触史、肝病临床表现、实验室检查结果及动态临床资料，结合现场职业卫生学调查综合分析。分为急性中毒性肝病和慢性中毒性肝病，并可进一步分轻度、中度和重度。",
+    "retrieval_hint": "当输入涉及ALT升高、黄疸、肝区疼痛、肝肿大、肝性脑病、职业接触肝毒物时优先召回。",
+    "priority": "high",
+    "status": "converted_to_user_template"
+  }
+]

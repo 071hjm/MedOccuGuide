@@ -1,0 +1,20 @@
+[
+  {
+    "chunk_id": "GBZ62_2002_chunk_001",
+    "file_name": "60.GBZ 62-2002职业性皮肤溃疡诊断标准.pdf",
+    "source": "职业性皮肤溃疡诊断标准",
+    "source_type": "national_occupational_diagnostic_standard",
+    "year": 2002,
+    "type": "standard_rule",
+    "chunk_level": "scope",
+    "parent_section": "1 范围；2 诊断原则；3 诊断标准",
+    "title": "范围、诊断原则与典型表现",
+    "disease_name": "职业性皮肤溃疡",
+    "hazard": "铬;铍;砷等化合物",
+    "system_target": "皮肤",
+    "text": "职业性皮肤溃疡是指生产劳动中直接接触某些铬、铍、砷等化合物所致形态较特异、典型的呈鸟眼状、病程较慢性的皮肤溃疡。本标准规定了职业性皮肤溃疡的诊断标准及处理原则，适用于职业性接触铬、铍、砷等化合物所致特异性皮肤溃疡的诊断及处理。",
+    "retrieval_hint": "当输入涉及铬疮、铍溃疡、鸟眼状溃疡、堤岸状隆起、手指手背前臂小腿皮损时优先召回。",
+    "priority": "high",
+    "status": "converted_to_user_template"
+  }
+]

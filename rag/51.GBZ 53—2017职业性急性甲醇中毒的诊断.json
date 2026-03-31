@@ -1,0 +1,20 @@
+[
+  {
+    "chunk_id": "GBZ53_2017_chunk_001",
+    "file_name": "51.GBZ 53—2017职业性急性甲醇中毒的诊断.pdf",
+    "source": "职业性急性甲醇中毒的诊断",
+    "source_type": "national_occupational_diagnostic_standard",
+    "year": 2017,
+    "type": "standard_rule",
+    "chunk_level": "scope",
+    "parent_section": "1 范围；3 诊断原则；5 诊断分级",
+    "title": "范围、诊断原则与分级",
+    "disease_name": "职业性急性甲醇中毒",
+    "hazard": "甲醇",
+    "system_target": "中枢神经系统;视神经与视网膜;代谢系统",
+    "text": "本标准规定了职业性急性甲醇中毒的诊断及处理原则，适用于职业活动中接触甲醇后出现急性中毒的诊断及处理。诊断应根据短期内较大剂量甲醇职业接触史，以中枢神经系统、代谢性酸中毒和视神经与视网膜急性损害为主的临床表现，结合实验室检查结果和现场职业卫生学调查资料综合分析。分级包括轻度中毒和重度中毒。",
+    "retrieval_hint": "当输入涉及甲醇暴露、视物模糊、代谢性酸中毒、视乳头水肿、视觉诱发电位异常时优先召回。",
+    "priority": "high",
+    "status": "converted_to_user_template"
+  }
+]

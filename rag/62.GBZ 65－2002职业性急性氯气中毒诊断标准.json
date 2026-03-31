@@ -1,0 +1,20 @@
+[
+  {
+    "chunk_id": "GBZ65_2002_chunk_001",
+    "file_name": "62.GBZ 65－2002职业性急性氯气中毒诊断标准.pdf",
+    "source": "职业性急性氯气中毒诊断标准",
+    "source_type": "national_occupational_diagnostic_standard",
+    "year": 2002,
+    "type": "standard_rule",
+    "chunk_level": "scope",
+    "parent_section": "1 范围；3 诊断原则；5 诊断及分级标准",
+    "title": "范围、诊断原则与分级",
+    "disease_name": "职业性急性氯气中毒",
+    "hazard": "氯气及类似无机氯化合物",
+    "system_target": "呼吸系统;眼和上呼吸道",
+    "text": "职业性急性氯气中毒是在工作过程中短期内吸入较大量氯气所致的以急性呼吸系统损害为主的全身性疾病。本标准规定了职业性急性氯气中毒诊断标准及处理原则，适用于氯气及类似无机氯化合物所致急性中毒。诊断应依据短期大量吸入史、临床症状体征、胸部X线表现和现场劳动卫生学调查综合分析。分级包括轻度、中度和重度中毒。",
+    "retrieval_hint": "当输入涉及氯气泄漏、呛咳咯痰、支气管肺炎、肺水肿、ARDS、窒息时优先召回。",
+    "priority": "high",
+    "status": "converted_to_user_template"
+  }
+]

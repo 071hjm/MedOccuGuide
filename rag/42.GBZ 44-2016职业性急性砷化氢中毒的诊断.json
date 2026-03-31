@@ -1,0 +1,20 @@
+[
+  {
+    "chunk_id": "GBZ44_2016_chunk_001",
+    "file_name": "42.GBZ 44-2016职业性急性砷化氢中毒的诊断.pdf",
+    "source": "职业性急性砷化氢中毒的诊断",
+    "source_type": "national_occupational_diagnostic_standard",
+    "year": 2016,
+    "type": "standard_rule",
+    "chunk_level": "scope",
+    "parent_section": "1 范围",
+    "title": "范围与适用对象",
+    "disease_name": "职业性急性砷化氢中毒",
+    "hazard": "砷化氢",
+    "system_target": "血液系统;肾脏;神经系统",
+    "text": "本标准规定了职业性急性砷化氢中毒的诊断及处理原则，适用于职业活动中接触砷化氢所致急性中毒的诊断和处理。",
+    "retrieval_hint": "当输入涉及砷化氢暴露、溶血、黄疸、血红蛋白尿、急性肾损伤时优先召回。",
+    "priority": "high",
+    "status": "converted_to_user_template"
+  }
+]
